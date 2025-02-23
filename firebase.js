@@ -4,7 +4,8 @@ const firebaseConfig = {
     projectId: "coupenredeem",
     storageBucket: "coupenredeem.firebasestorage.app",
     messagingSenderId: "39525609057",
-    appId: "1:39525609057:web:1c027d1f9b59808411c420"
+    appId: "1:39525609057:web:1c027d1f9b59808411c420",
+    measurementId: "G-S5XLQ75YFE"
 };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
