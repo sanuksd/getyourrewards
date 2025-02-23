@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redeem Coupon</title>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+    <script src="firebase.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Redeem Your Coupon</h1>
+    <input type="text" id="coupon" placeholder="Enter Coupon Code">
+    <input type="text" id="upi" placeholder="Enter UPI Address">
+    <button onclick="redeemCoupon()">Submit</button>
+    <p id="message"></p>
+</body>
+</html>
